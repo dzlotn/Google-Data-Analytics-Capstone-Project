@@ -1,4 +1,4 @@
-# Google Analytics Capstone
+# Google Data Analytics Capstone Project
 This is my code for the Google Advanced Data Analytics Course Capstone Project.
     
 **Capstone Project Background:**
