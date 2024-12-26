@@ -1,17 +1,14 @@
-# Google Data Analytics Capstone Project
+# Google Data Analytics Capstone Project - Attrition Analytics
 This is my code for the Google Advanced Data Analytics Course Capstone Project.
-    
-**Capstone Project Background:**
-The HR department at Salifort Motors wants to take some initiatives to improve employee satisfaction levels at the company. They collected data from employees, but now they don’t know what to do with it. They refer to you as a data analytics professional and ask you to provide data-driven suggestions based on your understanding of the data. They have the following question: what’s likely to make the employee leave the company?
 
-**Project Goal:** 
-The goal is to analyze the data collected by the HR department and to build a model that predicts whether or not an employee will leave the company.
+**The Project:**
 
-**What I Did:**
-I utilized two model approaches for the problem. First, I used binomial logistic regression predict whether an employee would leave the company based on tenure, work evaluation, number of projects, satisfaction level, and several other categories included in the dataset. The logistic regression model achieved a precision of 79%, recall of 82%, f1-score of 80% (all weighted averages), and accuracy of 82%. Next, I implemented a random forest model utilizing hyperparameter tuning using GridSearchCV. The entire model was saved using Pickle so it didn't have to be trained again during testing. After conducting feature engineering, the decision tree model achieved AUC of 93.8%, precision of 87.0%, recall of 90.4%, f1-score of 88.7%, and accuracy of 96.2%, on the test set. The random forest  outperformed the decision tree model. 
+This project analyzes employee data to uncover the key factors influencing employee turnover. By examining variables like tenure, work evaluation, number of projects, and satisfaction levels, it predicts whether an employee is likely to leave the company. The analysis employs binomial logistic regression and random forest models, achieving high accuracy and actionable insights to guide HR strategies.
 
-**Modules Used**
-Numpy, Pandas, Seaborn, XGBoost, Sci-Py, Pickle
+
+**Technologies Used:**
+
+Python, Numpy, Pandas, Matplotlib, Seaborn, XGBoost, Sci-Py, Pickle, Tableau
 
 **Logistic Regression Confusion Matrix**:
 
